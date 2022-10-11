@@ -10,3 +10,7 @@ TEST_CASE("test")
 {
 	REQUIRE(test_config() == true);
 }
+
+TEST_CASE("Verify roll_die_validator which holds logic to test roll_die 11 times"){
+	REQUIRE(roll_die_validator() == true);
+}
