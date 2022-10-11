@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++17 -Wall CMakeFiles/q_03_tests.dir/question_tests_3.cpp.o -o q_03_tests  ../../src/question_3/libq_03_library.a 

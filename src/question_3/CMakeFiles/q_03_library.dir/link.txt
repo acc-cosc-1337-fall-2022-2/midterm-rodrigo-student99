@@ -1,0 +1,2 @@
+/usr/bin/ar qc libq_03_library.a CMakeFiles/q_03_library.dir/question3.cpp.o
+/usr/bin/ranlib libq_03_library.a
