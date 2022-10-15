@@ -10,3 +10,10 @@ TEST_CASE("test")
 {
 	REQUIRE(test_config() == true);
 }
+
+TEST_CASE("Verify the get_cookie_ingredients function")
+{
+	REQUIRE(get_cookie_ingredients(48)  == vector<double> {1.5, 1, 2.75});
+	REQUIRE(get_cookie_ingredients(96)  == vector<double> {3, 2, 5.5});
+	REQUIRE(get_cookie_ingredients(24)  == vector<double> {.75, .5, 1.375});
+}
